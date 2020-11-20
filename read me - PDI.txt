@@ -1,0 +1,44 @@
+
+5:25 PM 11/20/2020
+    how to install sass - PDI
+
+
+
+- install vscode
+
+
+- open extension
+
+    - search Sass > install
+
+    - search Live Sass Compliler
+
+
+- got to settings 
+
+    - search live Live Sass
+
+    - click 
+            edit in settings.json
+
+            copy paste this 
+
+
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            // "extensionName": "min.css",
+            "savePath": "/css"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "explorer.confirmDelete": false
+}
+
+
+
+
+- then save then done!
